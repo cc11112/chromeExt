@@ -1,0 +1,15 @@
+{
+  "name": "MyExtension",
+  "version": "1.0",
+  "description": "My Extension",
+  "background": {
+    
+  },
+  "content_scripts": [
+	{
+		"matches": ["https://*.wenxuecity.com/*", "https://*.1point3acres.com/*"],
+		"js": ["inject.js"]
+	}
+   ],
+  "manifest_version": 2
+}
